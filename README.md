@@ -152,17 +152,17 @@ city_id biginteger,
 street_id biginteger,  
 house_id biginteger,  
 constrant fk_region  
-	foreign key (region_id)  
-	references (regions),  
+     foreign key (region_id)  
+     references (regions),  
 constrant fk_region  
-	foreign key (city_id)  
-	references (cities),  
+     foreign key (city_id)  
+     references (cities),  
 constrant fk_region  
-	foreign key (street_id)  
-	references (streets),  
+     foreign key (street_id)  
+     references (streets),  
 constrant fk_region  
-	foreign key (house_id)  
-	references (houses)  
+     foreign key (house_id)  
+     references (houses)  
 );  
 
 далее перечисление проектов
